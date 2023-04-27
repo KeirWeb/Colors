@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  flex: 1;
+}
+
+.col__text {
+  color: white;
+}
+.col__text:hover {
+  background: rgb(0, 0, 0, 0.2);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.col__btn {
+  border: none;
+  background: transparent;
+  font-size: 1.5rem;
+  color: white;
+  outline: none;
+}
+.col__btn:hover {
+  background: rgb(0, 0, 0, 0.2);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
